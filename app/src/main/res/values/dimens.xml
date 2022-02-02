@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_layout_stopwatch_size">45sp</dimen>
+    <dimen name="main_layout_stopwatch_margin_top">30dp</dimen>
+    <dimen name="margin_button">30dp</dimen>
+</resources>

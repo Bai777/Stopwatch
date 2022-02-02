@@ -6,7 +6,7 @@ import androidx.lifecycle.asLiveData
 import com.example.stopwatch.data.DataDTO
 import com.example.stopwatch.repository.Repository
 
-class MainViewModel private constructor(
+class MainViewModel  internal constructor(
     repository: Repository = Repository(),
 ) : ViewModel() {
     internal val liveData: LiveData<DataDTO> = repository.userData.asLiveData()
